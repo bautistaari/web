@@ -1,0 +1,35 @@
+<html>
+<body bgcolor=palegreen>
+<font face=calibri size=6>
+
+NOS ENCANTARÍA CONOCER TU OPINIÓN PARA SEGUIR MEJORANDO ESTA PÁGINA
+<br><br>
+
+<!-- Aquí aparecerá el mensaje -->
+<div id="gracias" style="color:green; font-size:22px; font-weight:bold; margin-bottom:15px;"></div>
+
+<form action="mailto:bautista.aranza23080909@cetis054.edu.mx" method="post" onsubmit="mostrarGracias()">
+
+ESCRIBE TU CORREO ELECTRÓNICO <br>
+<input type=text name=correo size=65 maxlength=65>
+<br><br>
+
+INGRESA TU OPINIÓN <br>
+<input type=text name=opinion size=100 maxlength=100>
+<br><br>
+
+<input type=submit value=Enviar>
+&nbsp;&nbsp;&nbsp;
+<input type=reset value=Limpiar>
+
+</form>
+
+<script>
+function mostrarGracias() {
+    document.getElementById("gracias").innerHTML = "¡Gracias por tu opinión! 😊";
+}
+</script>
+
+</font>
+</body>
+</html>
